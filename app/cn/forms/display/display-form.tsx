@@ -102,7 +102,7 @@ export function DisplayForm() {
                         <FormControl>
                           <Checkbox
                             checked={field.value?.includes(item.id)}
-                            onCheckedChange={(checked) => {
+                            onCheckedChange={(checked: any) => {
                               return checked
                                 ? field.onChange([...field.value, item.id])
                                 : field.onChange(

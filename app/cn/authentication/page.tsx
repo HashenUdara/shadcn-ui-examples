@@ -4,7 +4,7 @@ import Link from "next/link";
 
 import { cn } from "@/lib/utils";
 import { buttonVariants } from "@/components/ui/button";
-import { UserAuthForm } from "@/app/cn/authentication/components/user-auth-form";
+import { UserAuthForm } from "./components/user-auth-form";
 
 export const metadata: Metadata = {
   title: "Authentication",
@@ -74,7 +74,7 @@ export default function AuthenticationPage() {
               <h1 className="text-2xl font-semibold tracking-tight">
                 Create an account
               </h1>
-              <p className="text-sm text-muted-foreground">
+              <p className="white text-sm text-muted-foreground">
                 Enter your email below to create your account
               </p>
             </div>
